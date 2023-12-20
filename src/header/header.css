@@ -1,0 +1,40 @@
+#header{
+    /* background-color:lightcoral; */
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    padding:15px;
+    /* padding-top:5px ; */
+    position: sticky;
+    background-position: top;
+    /* background-size: cover; */
+    top: 0;
+    }
+.color{
+    color:purple;
+    text-decoration: none;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px white;
+    font-weight: 700;
+}
+
+/* button{
+    padding: 10px 40px;
+    border: 2px solid white;
+    background-color:aquamarine;
+    margin: 0;
+    border-radius: 5px;
+} */
+.log:hover{
+    border-radius: 20px;
+    background-color: purple;
+}
+.log{
+    font-size: 25px;
+    padding: 10px 40px;
+    border: 2px solid white;
+    background-color:aquamarine;
+    margin: 0;
+    border-radius: 5px;
+}

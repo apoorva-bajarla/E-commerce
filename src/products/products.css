@@ -1,0 +1,108 @@
+#product-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 20px auto;
+    /* border: 1px solid black; */
+}
+
+ .product-card {
+    width: calc(25% - 32px); 
+    /* border: 1px solid navy; */
+     text-align: center; 
+     font-family: cursive; 
+     margin: 15px ; 
+     transition: 0.5s;
+     background-color: azure;
+ } 
+#load{
+    text-align: center;
+}
+.product-thumbnail {
+    width: 60%;
+    height:150px;
+    margin-top: 20px;
+}
+
+.product-card:hover{
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+#product-spec-wrapper{
+    width:60%;
+    margin:0px auto;
+    /* border:2px solid black; */
+    height:7 00px;
+    text-align: center;
+    /* padding:20px; */
+    justify-content: space-around;
+    background-color: azure;
+}
+#product-spec-image{
+    width:50%;
+    height:250px;
+    transition: 0.5s;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#product-spec-image:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+#small-images-wrapper{
+    width:70%;
+    display:flex;
+    height:125px;
+    border:3px solid black;
+    margin:10px auto;
+}
+.small-image-wrapper{
+    width:25%;
+    height:100px;
+    margin:10px;
+}
+.small-image-thumbnail{
+    width:100%;
+    height: 100%;
+    transition: 0.8s;
+}
+.small-image-thumbnail:hover{
+      cursor: pointer;
+      transform: translateY(-20px);
+}
+.add2{
+    border: 1px solid white;
+    border-radius:10px ;
+    background-color:purple;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px purple;
+    padding: 15px;
+
+}
+.add2:hover{
+    border: 1px solid whitte;
+    /* border-top-right-radius: 10px; */
+    /* border-bottom-left-radius: 10px; */
+    background-color:darkmagenta;
+    cursor: pointer;
+
+}
+span{
+    color: purple;
+    font-style: italic;
+    font-size: 50px;
+}
+.product{
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 50px;
+    color: plum;
+}
+.tex{
+   text-shadow: 1px 1px 1px black; 
+}
+
+.pp{
+   font-size: 25px; 
+   font-style: oblique;
+}
